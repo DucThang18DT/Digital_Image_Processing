@@ -36,12 +36,7 @@ for y = 1:size(Y,2)
             continue;
         else
             Y = Y(:, y:size(Y, 2), :);
-            check = 1;
-            break;
         end
-    end
-    if (check == 1)
-        break;
     end
 end
 
